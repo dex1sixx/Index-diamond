@@ -29,11 +29,13 @@ nav{
 }
 
 .menu{
-   grid-column: 1fr 1fr;
-   display: grid;
+   
+   display: flex;
    align-items: center;
    text-decoration: none;
    color: #fff;
+    
+   
 }
 
 .menu li{
@@ -43,9 +45,7 @@ nav{
 .menu il a {
     display: flex;
     color: #ffffff;
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
 }
 
 
