@@ -105,8 +105,18 @@ nav{
 
 .content-item h4{
     margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
+.content-item h6  {
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: block;
+    
+    
+    
+}
+    
 .content-item p{
     margin: 1rem 0;
     
