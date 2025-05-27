@@ -11,7 +11,7 @@
 }
 
 nav{
-    padding: 1rem;
+    padding: 0rem;
     background-color:#CC99FF ;
 }
 
@@ -88,7 +88,8 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
-    display: flex;
+    margin-top: 3fr;
+    display: inline-block;
 }
 
 .content-title{
@@ -100,7 +101,8 @@ nav{
 .content-item img{
     width: 100%;
     grid-template-columns: 1fr 5fr;
-    ;
+    
+    
 }
 
 .content-item h4{
@@ -110,11 +112,8 @@ nav{
 
 .content-item h6  {
     font-size: 2rem;
-    margin-top: 1rem;
-    display: block;
-    
-    
-    
+    margin: 1rem 0;
+    display: flex;   
 }
     
 .content-item p{
@@ -127,7 +126,7 @@ nav{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 162, 23);
     text-decoration: none;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 10rem;
     
 }
