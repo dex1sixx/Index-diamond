@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 1140px;
+    max-width: 100%;
     margin: 0 auto;
 
 }
@@ -25,8 +25,10 @@ nav{
     color: #ffffff;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    display: flex;
 }
+
+
 
 .menu{
     display: flex;
