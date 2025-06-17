@@ -30,6 +30,27 @@ nav{
 
 
 
+
+.logo {
+  display: flex; /* ใช้ Flexbox เพื่อให้รูปภาพและข้อความอยู่ในแถวเดียวกัน */
+  align-items: center; /* จัดให้รูปภาพและข้อความอยู่ในระดับกลาง */
+}
+
+
+.logo img {
+  max-width: 25%; /* กำหนดขนาดสูงสุดให้กับรูปภาพ */
+  margin-right: 10px; /* เพิ่มช่องว่างระหว่างรูปภาพและข้อความ */
+}
+
+.logo p {
+  font-size: 24px; /* ขนาดตัวอักษร */
+  margin: 0; /* ลบค่า margin ออก */
+  color: #ffffff; /* สีของข้อความ */
+}
+
+
+
+
 .menu{
     display: flex;
     list-style: none;
