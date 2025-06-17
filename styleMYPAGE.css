@@ -43,9 +43,10 @@ nav{
 }
 
 .logo p {
-  font-size: 24px; /* ขนาดตัวอักษร */
+  font-size: 50px; /* ขนาดตัวอักษร */
   margin: 0; /* ลบค่า margin ออก */
   color: #ffffff; /* สีของข้อความ */
+  font-family: fantasy;
 }
 
 
@@ -84,7 +85,7 @@ nav{
 }
 
 .maincontent-info p{
-    margin: 1rem 0;
+    margin: 1rem 0; 
     font-size: 2.5rem;
     display: flex;
 }
@@ -106,30 +107,36 @@ nav{
 }
 
 .content-title{
-    margin: 2rem 0;
+    margin: 20px auto; /* จัดตำแหน่งให้กลางหน้า */
+    max-width: 600px; /* กำหนดขนาดความกว้างสูงสุด */
+    font-size: 2rem;
 }
 
 .content-item img{
     width: 100%;
+    height: 200px;
+    margin-left: 10rem;
 }
 
 .content-item h4{
     margin-top: 1rem;
+    margin-left: 10rem;
+    
 }
 
 .content-item p{
     margin: 1rem 0;
+    margin-left: 10rem;
     
 }
 
 .content-item a{
-    display: inline-block;
+    margin-left: 10rem;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 162, 23);
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem    ;
     border-radius: 10px;
-    
 }
 
 .footer-top{
@@ -141,7 +148,7 @@ nav{
 
 .footer-top-con{
     display: grid;
-    grid-template-columns: 1f 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
 }
 
