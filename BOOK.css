@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 1140px;
+    max-width: 100%;
     margin: 0 auto;
 
 }
@@ -23,11 +23,31 @@ nav{
 
 .logo a{
     font-size: 3rem;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
     
 }
+
+.logo {
+  display: flex; /* ใช้ Flexbox เพื่อให้รูปภาพและข้อความอยู่ในแถวเดียวกัน */
+  align-items: center; /* จัดให้รูปภาพและข้อความอยู่ในระดับกลาง */
+}
+
+
+.logo img {
+  max-width: 25%; /* กำหนดขนาดสูงสุดให้กับรูปภาพ */
+  margin-right: 10px; /* เพิ่มช่องว่างระหว่างรูปภาพและข้อความ */
+}
+
+.logo p {
+  font-size: 50px; /* ขนาดตัวอักษร */
+  margin: 0; /* ลบค่า margin ออก */
+  color: #ffffff; /* สีของข้อความ */
+  font-family: fantasy;
+}
+
 
 .menu{
   display: flex;
