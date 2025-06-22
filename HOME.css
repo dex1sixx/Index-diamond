@@ -11,7 +11,8 @@
 }
 
 nav{
-    padding: 1rem;
+    padding:0rem;
+    height: 150px; /* ปรับตามต้องการ */
     background-color:#CC99FF ;
 }
 
