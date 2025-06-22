@@ -13,11 +13,13 @@
 nav{
     padding: 0rem;
     height: 150px; /* ปรับตามต้องการ */
-    background-color:#CC99FF ;
+    background: linear-gradient(to right, #7f81ec, #6fc5ff);
 }
 
 .nav-con{
     display: flex;
+    height: 150px;
+    position: relative;
     justify-content: space-between; 
     
 }
