@@ -62,7 +62,7 @@ nav{
 
 
 .menu{
-  display: flex;
+   display: flex;
    align-items: center;
    text-decoration: none;
    color: #fff;
@@ -136,7 +136,10 @@ nav{
 .content-item{
     text-align: center;
     max-width: 700px; 
-    font-size: 1.3rem;  
+    font-size: 1.3rem;
+    background-color: #f9f9f9; /* พื้นหลังอ่อนๆ (เพิ่มได้ตามต้องการ) */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(94, 94, 94, 0.1);  
 }
 
 .content-item img{
@@ -161,8 +164,7 @@ nav{
 }
     
 .content-item p{
-    margin: 1rem 0;
-    
+    margin: 5px 0;   
 }
 
 .content-item a{
