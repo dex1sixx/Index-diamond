@@ -145,7 +145,7 @@ nav{
 .footer-top{
     margin-top: 1.5rem;
     padding: 1.5rem;
-    background-color: #CC99FF;
+    background: linear-gradient(to right, #7f81ec, #6fc5ff);
     color: #ffffff;
 }
 

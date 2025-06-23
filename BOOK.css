@@ -121,13 +121,20 @@ nav{
     margin: 2rem 0;
     grid-template-columns: 1fr 1fr;
     font-size: 2rem;
+    text-align: center;
+}
+
+.content-item{
+    text-align: center;
 }
 
 .content-item img{
-    width: 100%;
-    grid-template-columns: 1fr 5fr;
-    
-    
+    display: block;          /* ทำให้ img เป็น block เพื่อให้ใช้ margin auto ได้ */
+    margin: 20px auto;       /* จัดให้อยู่กึ่งกลางแนวนอน พร้อมระยะห่างด้านบน-ล่าง */
+    max-width: 100%;         /* ปรับขนาดไม่ให้เกินขอบ container */
+    height: auto;            /* รักษาสัดส่วนภาพ */
+    border-radius: 10px;     /* เพิ่มมุมโค้ง (ถ้าต้องการ) */
+    text-align: center;
 }
 
 .content-item h4{
@@ -137,8 +144,8 @@ nav{
 
 .content-item h6  {
     font-size: 2rem;
-    margin: 1rem 0;
-    display: flex;   
+    margin: 1rem 0;   
+    text-align: center;
 }
     
 .content-item p{
