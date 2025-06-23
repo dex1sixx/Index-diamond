@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+  background-image: url('https://images3.alphacoders.com/104/1044851.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
 .container{
     max-width: 100%;
     margin: 0 auto;
+    text-align: center;
 
 }
 
@@ -126,6 +135,8 @@ nav{
 
 .content-item{
     text-align: center;
+    max-width: 700px; 
+    font-size: 1.3rem;  
 }
 
 .content-item img{
@@ -140,12 +151,13 @@ nav{
 .content-item h4{
     margin-top: 1rem;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .content-item h6  {
     font-size: 2rem;
     margin: 1rem 0;   
-    text-align: center;
+    
 }
     
 .content-item p{
@@ -160,6 +172,8 @@ nav{
     text-decoration: none;
     padding: 1rem 2rem;
     border-radius: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     
 }
 

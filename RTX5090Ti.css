@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+  background-image: url('https://images3.alphacoders.com/104/1044851.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
 .container{
     max-width: 100%;
     margin: 0 auto;
