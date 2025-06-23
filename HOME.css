@@ -105,8 +105,7 @@ nav{
     width: 100%;
     padding: 1rem;
     border-radius: 3px;
-    display: block;
-    margin-left: 11rem;
+    text-align: center;
     margin-right: auto;
 }
 
