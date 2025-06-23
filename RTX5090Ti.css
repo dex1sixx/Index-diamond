@@ -15,6 +15,7 @@ body {
 .container{
     max-width: 100%;
     margin: 0 auto;
+
 }
 
 nav{
@@ -71,8 +72,7 @@ nav{
     text-decoration: none;
 }
 
-.maincontent{
-    background-color: #ffffff;
+.maincontent{   
     display: flex;
     padding: 0rem;
 }
@@ -105,8 +105,68 @@ nav{
 .maincontent-con{
     display: flex;
     padding: 1rem; /* เพิ่มช่องว่างภายในให้กรอบดูใหญ่ขึ้น */
-    background-color: #9cffe6;
-    margin: 1.5rem;
-    border-radius: 8rem;   
+    background-color: rgba(255, 255, 255, 0.8); /* สีขาวโปร่งใส */
+    margin: 1rem auto;
+    border-radius: 8rem;  
+}
+
+.content {
+    text-align: center;
+}
+
+.content-title{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 177, 223, 0.8); /* สีขาวโปร่งใส */
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem auto;
+    margin-left: 15rem;
+    border-radius: 10px;     /* เพิ่มมุมโค้ง (ถ้าต้องการ) */
+    height: 60px;
+    max-width: 100%;
+}
+
+.content-item{
+    margin: 3fr 3fr 3fr"
+    display: flex;
+    align-items: flex-start;
+}
+
+.content-con{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;     /* หรือใช้ center หากต้องการแนวกลางพอดี */
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.content-item img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  vertical-align: top; /* ป้องกันภาพดัน baseline ทำให้ลอย */
+}
+
+.title-main {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;  
+}
+
+.title-sub {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  max-width: 100%;
+  margin-left: 21rem;
+}
+
+.title-and {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  max-width: 100%;
+  margin-left: 25rem;   
 }
 
