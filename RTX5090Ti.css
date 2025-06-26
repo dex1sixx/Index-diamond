@@ -61,6 +61,7 @@ nav{
     display: flex;
     list-style: none;
     align-items: center;
+    font-size: 1.4rem;
 }
 
 .menu li{
