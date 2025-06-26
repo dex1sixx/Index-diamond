@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url('https://images3.alphacoders.com/104/1044851.jpg');
+  background-image: url('https://images.unsplash.com/photo-1699891730676-037bed3c1bed?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
 nav{
     padding:0rem;
     height: 150px; /* ปรับตามต้องการ */
-    background: linear-gradient(to right, #7f81ec, #6fc5ff);
+    
 }
 
 .nav-con{
@@ -77,6 +77,9 @@ nav{
 .menu li a {
     color: #ffffff;
     text-decoration: none;
+    background-color: rgba(0, 132, 255, 0.8); /* สีขาวโปร่งใส */
+    border-radius: 8rem;
+    padding: 1rem;
 }
 
 
@@ -100,6 +103,7 @@ nav{
     margin: 1rem 0; 
     font-size: 2.5rem;
     display: flex;
+    color: #ffffff;
 }
 
 .maincontent-img{
@@ -130,12 +134,14 @@ nav{
 .content-item h4{
     margin-top: 1rem;
     margin-left: 10rem;
+    color: #ffffff
     
 }
 
 .content-item p{
     margin: 1rem;
     margin-left: 10rem;
+    color: #ffffff
     
 }
 
@@ -151,7 +157,6 @@ nav{
 .footer-top{
     margin-top: 1.5rem;
     padding: 1.5rem;
-    background: linear-gradient(to right, #7f81ec, #6fc5ff);
     color: #ffffff;
 }
 
