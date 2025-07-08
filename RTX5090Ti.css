@@ -175,7 +175,7 @@ nav{
 
 .content-item a {
   display: flex;
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: #ffffff;
   background-color: #ffbb00; /* พื้นหลังอ่อนๆ (เพิ่มได้ตามต้องการ) */
   border-radius: 15px;
@@ -184,8 +184,28 @@ nav{
   font-weight: bold;
   font-size: 1.2rem;
   padding: 0.5rem 1.5rem;
-  
+  margin-left: 420px;  
 }
 
-.content-item a:hover {
+.footer-top-con{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    color: #ffffff;
+}
+
+.footer-top-item-con{
+    display: block;
+    margin: 1rem 0;
+}
+
+.footer-top-item:nth-child(3)h4{
+    margin-bottom: 1rem;
+}
+
+.footer-buttom{
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
 }

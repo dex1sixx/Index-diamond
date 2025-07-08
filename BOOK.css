@@ -183,13 +183,12 @@ nav{
 .footer-top{
     margin-top: 1.5rem;
     padding: 1.5rem;
-    background-color: #CC99FF;
     color: #ffffff;
 }
 
 .footer-top-con{
-    display: grid;
-    grid-template-columns: 1f 1fr;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
 }
 

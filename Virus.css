@@ -133,4 +133,26 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.footer-top-con{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    color: #ffffff;
+}
+
+.footer-top-item-con{
+    display: block;
+    margin: 1rem 0;
+}
+
+.footer-top-item:nth-child(3)h4{
+    margin-bottom: 1rem;
+}
+
+.footer-buttom{
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
 
